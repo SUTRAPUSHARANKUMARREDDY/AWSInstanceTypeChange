@@ -10,7 +10,7 @@ To create the lambda function <br />
 --> cd .. <br />
 --> zip -g AWSInstanceTypeChange.zip InstanceTypeChang.py <br />
 --> zip -g AWSInstanceTypeChange.zip constant.py <br />
---> aws lambda create-function --function-name instance_shutdown --zip-file fileb://AWSInstanceTypeChange.zip --runtime python3.8 --role arn:aws:iam::*****:role/ --handler InstanceTypeChang.lambda_handler --timeout 300 <br />
+--> aws lambda create-function --function-name nstance_Type_Change --zip-file fileb://AWSInstanceTypeChange.zip --runtime python3.8 --role arn:aws:iam::*****:role/ --handler InstanceTypeChang.lambda_handler --timeout 300 <br />
 
 
 
